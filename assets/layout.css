@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    
+    overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+
+    background-color: #085bab;
+}
+
+
+
+.nav_title{
+    display: inline-block;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: white;
+}
+
+.stantec_logo{
+    display: inline-block;
+    padding-right:10px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: white; 
+    margin-left: 20px; 
+    
+}
+
+.Nav_bar{
+    width: 100%;
+    height: 70px;
+    /*border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-bottom-color: #085bab;*/
+    background-color: rgb(12,11,11);
+} 
+
+.Filter_Section{
+    height: 1000px;
+    background-color:white;    
+}
+
+
+.Map_Section{
+    height: 1000px;
+    background-color: lightcoral;    
+}
+
+.Map_Section .dash-graph{
+    width: 100%;
+    height: 1080px;
+}
+
+
+/**********************Tab CSS*********************************/
+
+.Tab_Container{
+    /*padding-right: 900px;*/
+    padding-right: 50vw;
+    background-color: #ed7000 !important;
+    padding-left: 20px;
+    height: 59px;
+}
+
+.custom-tabs-container {
+    width: 100%;
+}
+.custom-tab {
+    border-top-left-radius: 3px;
+    background-color: #ed7000 !important;
+    padding: 0px 24px;
+    height: 60px;
+    padding-right: 50px;
+}
+
+.custom-tab {
+    color:white;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top: 0px solid transparent !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 1px solid #d6d6d6;
+    /*border-bottom: 1px !important;*/
+    background-color: #fafbfc;
+    padding: 5px !important;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+.custom-tab--selected {
+    background-color: white !important;
+    font-weight: bold;
+    /*box-shadow: 1px 1px 0px white;
+    border-left: 1px solid lightgrey !important;
+    border-right: 1px solid lightgrey !important;*/
+    border-top: 6px solid #0c0b0b !important;
+}
+
+/**********************Tab CSS*********************************/
+
+.modebar {
+    display: none !important;
+    }
+
+.Heading{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 14px;  
+    margin-top: 20px;
+}
+
+.Input_Container{
+    
+    margin-left: 3px;
+}
+
+
+.Filter_Block{
+    
+    margin-left: 3px;
+}
+
+.Filter_Container{
+
+    background-color: #f7f7f6;
+    /*height: 1330px;*/
+    height: 100%;
+}
+
+.intro{
+    margin-right: 22px;
+}
+
+.intro_p
+{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    
+}
+
+.intro_p1{
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.Slider_tag{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 12px;
+    
+    
+}
+
+.Apple_country2{
+    margin-right: 30px;
+}
+
+.sliderbox{
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
+
+#Country.dash-dropdown{
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-right: 30px;
+}
+
+#State_Dropdown.dash-dropdown{
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-right: 30px;
+}
+
+#County.dash-dropdown{
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-right: 30px;
+}
+
+#Mode.dash-dropdown{
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-right: 30px;
+}
+
+#map.dash-graph{
+    width: 100%;
+    height: 550px;
+}
+
+#map2.dash-graph{
+    width: 100%;
+    height: 900px;
+}
+
+#State.dash-graph{
+    width: 20%;
+}
+
+#state_comparison.dash-graph{
+    margin-top: 40px;
+    height: 350px;
+}
+
+.plot_1{
+    padding-top:40px;
+    padding-right: 10px;
+    padding-left: 0px;
+    font-family: "Oswald", sans-serif;
+}
+
+.Country_Title{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 40px; 
+    margin-top: 30px;
+    text-transform: uppercase; 
+}
+
+.Comparison_Bar{
+    margin-top: 130px;
+}
+.Row1{
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.Row2{
+    margin-top: 40px;
+    margin-left: 10px;
+   
+}
+
+.Row3{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+   
+}
+
+#Activity.dash-dropdown{
+    font-family: sans-serif;
+    font-size: 11px;
+    margin-right: 30px;
+}
+
+.Section_Heading{
+    font-family: sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 12px;
+    
+}
+
+#title{
+    font-family: 'Century Gothic';
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#title_state{
+    font-family: 'Century Gothic';
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#percentage{
+    font-family: 'Century Gothic';
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+#percentage_state{
+    font-family: 'Century Gothic';
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 80px;
+}
+
+.note{
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    font-size: 15px; 
+    margin-top: -30px; 
+    padding-top: 0px;
+}
+
+.note2{
+    font-family: 'Century Gothic';
+    font-size: 15px;  
+    margin-top: 160px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.datetime{
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    font-size: 20px;  
+
+}
+
+.export{
+    margin-left: -15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 12px;
+    background-color:white;
+    border: 2px solid rgb(230, 230, 230);
+    border-radius: 2px;
+}
+
